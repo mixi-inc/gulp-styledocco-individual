@@ -1,0 +1,35 @@
+{
+  "name": "gulp-styledocco-individual",
+  "version": "1.0.0",
+  "description": "Gulp plugin for styledocco that supports incremental building",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "dtsm install && npm run build && npm run lint && npm test",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "lint": "tslint src/**/*.ts",
+    "test": "npm run build && mocha --recursive dist/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.lo.mixi.jp/js-committee/gulp-styledocco-individual"
+  },
+  "keywords": [
+    "gulpplugin",
+    "styledocco",
+    "incremental"
+  ],
+  "author": "Kuniwak",
+  "license": "MIT",
+  "dependencies": {
+    "child-process-promise": "^1.1.0",
+    "dtsm": "^0.13.0",
+    "highland": "^2.5.1",
+    "tslint": "^3.2.1",
+    "typescript": "^1.7.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "vinyl": "^1.1.0"
+  }
+}
