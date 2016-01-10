@@ -9,7 +9,7 @@ Gulp plugin for [StyleDocco](https://jacobrask.github.io/styledocco/) and suppor
 
 SytleDocco is a great documentation tool for CSS/Less/Sass and so on.
 And now, this tool does not support incremental building.
-Because generated docuents have navigations to each others.
+Because generated documents have navigations to each others.
 So we can not generate documents incrementally.
 
 But we can generate documents individually, and then we can do incremental building.
