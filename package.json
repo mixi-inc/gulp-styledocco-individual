@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.lo.mixi.jp/js-committee/gulp-styledocco-individual"
+    "url": "https://github.com/mixi-inc/gulp-styledocco-individual"
   },
   "keywords": [
     "gulpplugin",
