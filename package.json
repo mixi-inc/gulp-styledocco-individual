@@ -1,6 +1,6 @@
 {
   "name": "gulp-styledocco-individual",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp plugin for styledocco that supports incremental building",
   "main": "dist/index.js",
   "scripts": {
