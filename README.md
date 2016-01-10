@@ -1,6 +1,10 @@
 gulp-styledocco-individual
 ===========================
 
+[![Build Status](https://travis-ci.org/mixi-inc/gulp-styledocco-individual.svg?branch=master)](https://travis-ci.org/mixi-inc/gulp-styledocco-individual)
+[![npm version](https://badge.fury.io/js/gulp-styledocco-individual.svg)](https://badge.fury.io/js/gulp-styledocco-individual)
+
+
 Gulp plugin for [StyleDocco](https://jacobrask.github.io/styledocco/) and supports incremental building.
 
 SytleDocco is a great documentation tool for CSS/Less/Sass and so on.
